@@ -38,13 +38,28 @@ public class SecondActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Toast.makeText(SecondActivity.this,"Ibm seclected",Toast.LENGTH_SHORT).show();
 
+
             }
         });
+        ibm.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                openBmiActivity();
+
+            }
+        });
+
         FITTIP.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Toast.makeText(SecondActivity.this," FIT tip  seclected",Toast.LENGTH_SHORT).show();
 
+            }
+        });
+        FITTIP.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                openFittipActivity();
             }
         });
         EXERCISE.setOnClickListener(new View.OnClickListener() {
@@ -54,11 +69,23 @@ public class SecondActivity extends AppCompatActivity {
 
             }
         });
+        EXERCISE.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                openExerciseActivity();
+            }
+        });
         FATBURN.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Toast.makeText(SecondActivity.this,"Fatburn seclected",Toast.LENGTH_SHORT).show();
 
+            }
+        });
+        FATBURN.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                openFatburnActivity();
             }
         });
         FEEDBACK.setOnClickListener(new View.OnClickListener() {
@@ -68,11 +95,23 @@ public class SecondActivity extends AppCompatActivity {
 
             }
         });
+        FEEDBACK.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                openFeedbackActivity();
+            }
+        });
         RATEIT.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Toast.makeText(SecondActivity.this,"Rate us seclected",Toast.LENGTH_SHORT).show();
 
+            }
+        });
+        RATEIT.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                openRateActivity();
             }
         });
 
@@ -85,6 +124,31 @@ public class SecondActivity extends AppCompatActivity {
                 Logout();
             }
         });
+    }
+    public void openFeedbackActivity()
+    {
+        Intent intent= new Intent(this,FeedbackActivity.class);
+        startActivity(intent);
+    }
+    public  void openRateActivity(){
+        Intent intent = new Intent(this,RateActivity.class);
+        startActivity(intent);
+    }
+    public  void openFittipActivity(){
+        Intent intent= new Intent(this,FatburnActivity.class);
+        startActivity(intent);
+    }
+    public  void openFatburnActivity(){
+        Intent intent= new Intent(this,FatburnActivity.class);
+        startActivity(intent);
+    }
+    public void  openExerciseActivity(){
+        Intent intent=new Intent(this,ExerciseActivity.class);
+        startActivity(intent);
+    }
+    public void openBmiActivity(){
+        Intent intent= new Intent(this,bmiActivity.class);
+        startActivity(intent);
     }
     private void Logout()
     {firebaseAuth.signOut();

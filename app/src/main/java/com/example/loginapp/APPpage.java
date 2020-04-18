@@ -11,6 +11,7 @@ public class APPpage extends AppCompatActivity {
     private Button singin;
 
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
