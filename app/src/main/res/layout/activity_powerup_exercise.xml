@@ -1,0 +1,687 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PowerupExercise">
+    <GridLayout
+        android:columnCount="1"
+        android:rowCount="3"
+        android:alignmentMode="alignMargins"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_margin="10dp"
+            app:cardElevation="6dp"
+            app:cardCornerRadius="12dp">
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:videoId="B-_C6H_FGhg"
+                app:autoPlay="false"
+                app:showYouTubeButton="true"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="20 Side Lunge Touchdown"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:layout_marginTop="255dp"
+                android:textAlignment="center"/>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_margin="10dp"
+            app:cardElevation="6dp"
+            app:cardCornerRadius="12dp">
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:videoId="0CcVzNxrcdc"
+                app:autoPlay="false"
+                app:showYouTubeButton="true"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="20 Inclined Wall Push-ups"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:layout_marginTop="260dp"
+                android:textAlignment="center"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_margin="10dp"
+            app:cardElevation="6dp"
+            app:cardCornerRadius="12dp">
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:videoId="HtHxnWmMgzM"
+                app:autoPlay="false"
+                app:showYouTubeButton="true"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="20 Single-Leg Deadlift L"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:layout_marginTop="260dp"
+                android:textAlignment="center"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_margin="10dp"
+            app:cardElevation="6dp"
+            app:cardCornerRadius="12dp">
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:videoId="HtHxnWmMgzM"
+                app:autoPlay="false"
+                app:showYouTubeButton="true"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="20 Single-Leg Deadlift R"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:layout_marginTop="260dp"
+                android:textAlignment="center"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_margin="10dp"
+            app:cardElevation="6dp"
+            app:cardCornerRadius="12dp">
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:videoId="YB0egDzsu18"
+                app:autoPlay="false"
+                app:showYouTubeButton="true"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="20 Wall Push Offs"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:layout_marginTop="260dp"
+                android:textAlignment="center"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_margin="10dp"
+            app:cardElevation="6dp"
+            app:cardCornerRadius="12dp">
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:videoId="pXNrtjHlS6w"
+                app:autoPlay="false"
+                app:showYouTubeButton="true"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="20 Clap jack"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:layout_marginTop="260dp"
+                android:textAlignment="center"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:background="@color/colorPrimaryDark"
+            app:cardElevation="6dp"
+            app:cardCornerRadius="12dp">
+            <View
+                android:layout_height="4dp"
+                android:layout_width="wrap_content"
+                android:background="@color/colorAccent"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Round 2 Of 4"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:layout_marginTop="9dp"
+                android:textAlignment="center"/>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_margin="10dp"
+            app:cardElevation="6dp"
+            app:cardCornerRadius="12dp">
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:videoId="B-_C6H_FGhg"
+                app:autoPlay="false"
+                app:showYouTubeButton="true"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="20 Side Lunge Touchdown"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:layout_marginTop="255dp"
+                android:textAlignment="center"/>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_margin="10dp"
+            app:cardElevation="6dp"
+            app:cardCornerRadius="12dp">
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:videoId="0CcVzNxrcdc"
+                app:autoPlay="false"
+                app:showYouTubeButton="true"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="20 Inclined Wall Push-ups"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:layout_marginTop="260dp"
+                android:textAlignment="center"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_margin="10dp"
+            app:cardElevation="6dp"
+            app:cardCornerRadius="12dp">
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:videoId="HtHxnWmMgzM"
+                app:autoPlay="false"
+                app:showYouTubeButton="true"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="20 Single-Leg Deadlift L"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:layout_marginTop="260dp"
+                android:textAlignment="center"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_margin="10dp"
+            app:cardElevation="6dp"
+            app:cardCornerRadius="12dp">
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:videoId="HtHxnWmMgzM"
+                app:autoPlay="false"
+                app:showYouTubeButton="true"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="20 Single-Leg Deadlift R"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:layout_marginTop="260dp"
+                android:textAlignment="center"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_margin="10dp"
+            app:cardElevation="6dp"
+            app:cardCornerRadius="12dp">
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:videoId="YB0egDzsu18"
+                app:autoPlay="false"
+                app:showYouTubeButton="true"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="20 Wall Push Offs"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:layout_marginTop="260dp"
+                android:textAlignment="center"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_margin="10dp"
+            app:cardElevation="6dp"
+            app:cardCornerRadius="12dp">
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:videoId="pXNrtjHlS6w"
+                app:autoPlay="false"
+                app:showYouTubeButton="true"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="20 Clap jack"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:layout_marginTop="260dp"
+                android:textAlignment="center"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:background="@color/colorPrimaryDark"
+            app:cardElevation="6dp"
+            app:cardCornerRadius="12dp">
+            <View
+                android:layout_height="4dp"
+                android:layout_width="wrap_content"
+                android:background="@color/colorAccent"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Round 3 Of 4"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:layout_marginTop="9dp"
+                android:textAlignment="center"/>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_margin="10dp"
+            app:cardElevation="6dp"
+            app:cardCornerRadius="12dp">
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:videoId="B-_C6H_FGhg"
+                app:autoPlay="false"
+                app:showYouTubeButton="true"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="20 Side Lunge Touchdown"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:layout_marginTop="255dp"
+                android:textAlignment="center"/>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_margin="10dp"
+            app:cardElevation="6dp"
+            app:cardCornerRadius="12dp">
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:videoId="0CcVzNxrcdc"
+                app:autoPlay="false"
+                app:showYouTubeButton="true"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="20 Inclined Wall Push-ups"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:layout_marginTop="260dp"
+                android:textAlignment="center"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_margin="10dp"
+            app:cardElevation="6dp"
+            app:cardCornerRadius="12dp">
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:videoId="HtHxnWmMgzM"
+                app:autoPlay="false"
+                app:showYouTubeButton="true"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="20 Single-Leg Deadlift L"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:layout_marginTop="260dp"
+                android:textAlignment="center"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_margin="10dp"
+            app:cardElevation="6dp"
+            app:cardCornerRadius="12dp">
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:videoId="HtHxnWmMgzM"
+                app:autoPlay="false"
+                app:showYouTubeButton="true"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="20 Single-Leg Deadlift R"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:layout_marginTop="260dp"
+                android:textAlignment="center"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_margin="10dp"
+            app:cardElevation="6dp"
+            app:cardCornerRadius="12dp">
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:videoId="YB0egDzsu18"
+                app:autoPlay="false"
+                app:showYouTubeButton="true"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="20 Wall Push Offs"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:layout_marginTop="260dp"
+                android:textAlignment="center"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_margin="10dp"
+            app:cardElevation="6dp"
+            app:cardCornerRadius="12dp">
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:videoId="pXNrtjHlS6w"
+                app:autoPlay="false"
+                app:showYouTubeButton="true"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="20 Clap jack"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:layout_marginTop="260dp"
+                android:textAlignment="center"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:background="@color/colorPrimaryDark"
+            app:cardElevation="6dp"
+            app:cardCornerRadius="12dp">
+            <View
+                android:layout_height="4dp"
+                android:layout_width="wrap_content"
+                android:background="@color/colorAccent"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Round 4 Of 4"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:layout_marginTop="9dp"
+                android:textAlignment="center"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_margin="10dp"
+            app:cardElevation="6dp"
+            app:cardCornerRadius="12dp">
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:videoId="B-_C6H_FGhg"
+                app:autoPlay="false"
+                app:showYouTubeButton="true"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="20 Side Lunge Touchdown"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:layout_marginTop="255dp"
+                android:textAlignment="center"/>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_margin="10dp"
+            app:cardElevation="6dp"
+            app:cardCornerRadius="12dp">
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:videoId="0CcVzNxrcdc"
+                app:autoPlay="false"
+                app:showYouTubeButton="true"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="20 Inclined Wall Push-ups"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:layout_marginTop="260dp"
+                android:textAlignment="center"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_margin="10dp"
+            app:cardElevation="6dp"
+            app:cardCornerRadius="12dp">
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:videoId="HtHxnWmMgzM"
+                app:autoPlay="false"
+                app:showYouTubeButton="true"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="20 Single-Leg Deadlift L"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:layout_marginTop="260dp"
+                android:textAlignment="center"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_margin="10dp"
+            app:cardElevation="6dp"
+            app:cardCornerRadius="12dp">
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:videoId="HtHxnWmMgzM"
+                app:autoPlay="false"
+                app:showYouTubeButton="true"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="20 Single-Leg Deadlift R"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:layout_marginTop="260dp"
+                android:textAlignment="center"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_margin="10dp"
+            app:cardElevation="6dp"
+            app:cardCornerRadius="12dp">
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:videoId="YB0egDzsu18"
+                app:autoPlay="false"
+                app:showYouTubeButton="true"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="20 Wall Push Offs"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:layout_marginTop="260dp"
+                android:textAlignment="center"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_margin="10dp"
+            app:cardElevation="6dp"
+            app:cardCornerRadius="12dp">
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:videoId="pXNrtjHlS6w"
+                app:autoPlay="false"
+                app:showYouTubeButton="true"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="20 Clap jack"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:layout_marginTop="260dp"
+                android:textAlignment="center"/>
+
+        </androidx.cardview.widget.CardView>
+
+    </GridLayout>
+
+</ScrollView>

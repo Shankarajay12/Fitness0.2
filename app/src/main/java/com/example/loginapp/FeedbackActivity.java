@@ -1,8 +1,8 @@
 package com.example.loginapp;
 
 import android.provider.Settings;
-import android.support.v7.app.AlertDialog;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AlertDialog;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -10,7 +10,6 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import com.firebase.client.Firebase;
-import com.google.firebase.FirebaseApp;
 
 public class FeedbackActivity extends AppCompatActivity {
     EditText namedata,emaildata,messagedata;

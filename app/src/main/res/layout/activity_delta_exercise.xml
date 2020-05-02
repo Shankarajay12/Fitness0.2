@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DeltaExercise">
+
+    <GridLayout
+        android:columnCount="1"
+        android:rowCount="3"
+        android:alignmentMode="alignMargins"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_margin="10dp"
+            app:cardElevation="6dp"
+            app:cardCornerRadius="12dp">
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:videoId="hugRaDLJSi0"
+                app:autoPlay="false"
+                app:showYouTubeButton="true"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Do 50 Jumping Jack"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:layout_marginTop="260dp"
+                android:textAlignment="center"/>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_margin="10dp"
+            app:cardElevation="6dp"
+            app:cardCornerRadius="12dp">
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:videoId="r7oBejx1PHM"
+                app:autoPlay="false"
+                app:showYouTubeButton="true"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Do 10 Tuck Jumps"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:layout_marginTop="260dp"
+                android:textAlignment="center"/>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_margin="10dp"
+            app:cardElevation="6dp"
+            app:cardCornerRadius="12dp">
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:videoId="i2aXxSXXstY"
+                app:autoPlay="false"
+                app:showYouTubeButton="true"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Do 20 Rockstar"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:layout_marginTop="260dp"
+                android:textAlignment="center"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:background="@color/colorPrimaryDark"
+            app:cardElevation="6dp"
+            app:cardCornerRadius="12dp">
+            <View
+                android:layout_height="4dp"
+                android:layout_width="wrap_content"
+                android:background="@color/colorAccent"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Round 2 Of 4"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:layout_marginTop="9dp"
+                android:textAlignment="center"/>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_margin="10dp"
+            app:cardElevation="6dp"
+            app:cardCornerRadius="12dp">
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:videoId="hugRaDLJSi0"
+                app:autoPlay="false"
+                app:showYouTubeButton="true"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Do 50 Jumping Jack"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:layout_marginTop="260dp"
+                android:textAlignment="center"/>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_margin="10dp"
+            app:cardElevation="6dp"
+            app:cardCornerRadius="12dp">
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:videoId="r7oBejx1PHM"
+                app:autoPlay="false"
+                app:showYouTubeButton="true"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Do 10 Tuck Jumps"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:layout_marginTop="260dp"
+                android:textAlignment="center"/>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_margin="10dp"
+            app:cardElevation="6dp"
+            app:cardCornerRadius="12dp">
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:videoId="i2aXxSXXstY"
+                app:autoPlay="false"
+                app:showYouTubeButton="true"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Do 20 Rockstar"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:layout_marginTop="260dp"
+                android:textAlignment="center"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:background="@color/colorPrimaryDark"
+            app:cardElevation="6dp"
+            app:cardCornerRadius="12dp">
+            <View
+                android:layout_height="4dp"
+                android:layout_width="wrap_content"
+                android:background="@color/colorAccent"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Round 3 Of 4"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:layout_marginTop="9dp"
+                android:textAlignment="center"/>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_margin="10dp"
+            app:cardElevation="6dp"
+            app:cardCornerRadius="12dp">
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:videoId="hugRaDLJSi0"
+                app:autoPlay="false"
+                app:showYouTubeButton="true"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Do 50 Jumping Jack"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:layout_marginTop="260dp"
+                android:textAlignment="center"/>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_margin="10dp"
+            app:cardElevation="6dp"
+            app:cardCornerRadius="12dp">
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:videoId="r7oBejx1PHM"
+                app:autoPlay="false"
+                app:showYouTubeButton="true"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Do 10 Tuck Jumps"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:layout_marginTop="260dp"
+                android:textAlignment="center"/>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_margin="10dp"
+            app:cardElevation="6dp"
+            app:cardCornerRadius="12dp">
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:videoId="i2aXxSXXstY"
+                app:autoPlay="false"
+                app:showYouTubeButton="true"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Do 20 Rockstar"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:layout_marginTop="260dp"
+                android:textAlignment="center"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:background="@color/colorPrimaryDark"
+            app:cardElevation="6dp"
+            app:cardCornerRadius="12dp">
+            <View
+                android:layout_height="4dp"
+                android:layout_width="wrap_content"
+                android:background="@color/colorAccent"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Round 4 Of 4"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:layout_marginTop="9dp"
+                android:textAlignment="center"/>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_margin="10dp"
+            app:cardElevation="6dp"
+            app:cardCornerRadius="12dp">
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:videoId="hugRaDLJSi0"
+                app:autoPlay="false"
+                app:showYouTubeButton="true"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Do 50 Jumping Jack"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:layout_marginTop="260dp"
+                android:textAlignment="center"/>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_margin="10dp"
+            app:cardElevation="6dp"
+            app:cardCornerRadius="12dp">
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:videoId="r7oBejx1PHM"
+                app:autoPlay="false"
+                app:showYouTubeButton="true"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Do 10 Tuck Jumps"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:layout_marginTop="260dp"
+                android:textAlignment="center"/>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_margin="10dp"
+            app:cardElevation="6dp"
+            app:cardCornerRadius="12dp">
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                app:videoId="i2aXxSXXstY"
+                app:autoPlay="false"
+                app:showYouTubeButton="true"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Do 20 Rockstar"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:layout_marginTop="260dp"
+                android:textAlignment="center"/>
+
+        </androidx.cardview.widget.CardView>
+
+    </GridLayout>
+
+</ScrollView>

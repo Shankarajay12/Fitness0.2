@@ -1,9 +1,186 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".FatburnActivity">
+    <GridLayout
+        android:columnCount="1"
+        android:rowCount="3"
+        android:alignmentMode="alignMargins"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-</android.support.constraint.ConstraintLayout>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_margin="10dp"
+            app:cardElevation="6dp"
+            app:cardCornerRadius="12dp">
+
+
+            <ImageView
+                android:id="@+id/RockstarExercise"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/rockstar" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="Rockstar"
+                android:text="30s Rockstar"
+                android:textSize="30dp"
+                android:textColor="#000"
+                android:layout_marginTop="205dp"
+                android:textAlignment="center"
+                android:layout_marginLeft="5dp">
+
+            </TextView>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_margin="10dp"
+            app:cardElevation="6dp"
+            app:cardCornerRadius="12dp">
+
+
+            <ImageView
+                android:id="@+id/frogExercise"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/frog_squat" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="Frog Squats"
+                android:text="30s Frog Squat"
+                android:textSize="30dp"
+                android:textColor="#000"
+                android:layout_marginTop="205dp"
+                android:textAlignment="center"
+                android:layout_marginLeft="5dp"
+                >
+
+            </TextView>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_margin="10dp"
+            app:cardElevation="6dp"
+            app:cardCornerRadius="12dp">
+
+            <ImageView
+                android:id="@+id/wallpushoffExercise"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/wall_push_off" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="Wall Push Offs"
+                android:text="30s Wall Push Offs"
+                android:textSize="30dp"
+                android:textColor="#000"
+                android:layout_marginTop="205dp"
+                android:textAlignment="center"
+                android:layout_marginLeft="5dp">
+
+            </TextView>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_margin="10dp"
+            app:cardElevation="6dp"
+            app:cardCornerRadius="12dp">
+
+
+            <ImageView
+                android:id="@+id/side_lungeExercise"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/side_lunge_touchdown" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="Side Lunge Touchdown"
+                android:text="30s Side Lunge Touchdown"
+                android:textSize="30dp"
+                android:textColor="#000"
+                android:layout_marginTop="205dp"
+                android:textAlignment="center"
+                android:layout_marginLeft="5dp">
+
+            </TextView>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_margin="10dp"
+            app:cardElevation="6dp"
+            app:cardCornerRadius="12dp">
+
+
+            <ImageView
+                android:id="@+id/skieJumpExercise"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/ski_jump" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="Skier Jump"
+                android:text="30s Skier Jumps"
+                android:textSize="30dp"
+                android:textColor="#000"
+                android:layout_marginTop="205dp"
+                android:textAlignment="center"
+                android:layout_marginLeft="5dp">
+
+            </TextView>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_margin="10dp"
+            app:cardElevation="6dp"
+            app:cardCornerRadius="12dp">
+
+
+            <ImageView
+                android:id="@+id/crossingExercise"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/crossing_punch" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:contentDescription="Crossing Punches"
+                android:text="30s Crossing Punches"
+                android:textSize="30dp"
+                android:textColor="#000"
+                android:layout_marginTop="205dp"
+                android:textAlignment="center"
+                android:layout_marginLeft="5dp">
+
+            </TextView>
+        </androidx.cardview.widget.CardView>
+
+
+
+
+    </GridLayout>
+
+</ScrollView>

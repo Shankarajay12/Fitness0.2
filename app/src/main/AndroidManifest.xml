@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.loginapp">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -11,7 +11,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".RateActivity"></activity>
+        <activity android:name=".CrossingPunches" />
+        <activity android:name=".SkierJump" />
+        <activity android:name=".SideLungeToucdwn" />
+        <activity android:name=".WallPushoff" />
+        <activity android:name=".Frog_Squats" />
+        <activity android:name=".Rockstar" />
+        <activity android:name=".AlphaExercise" />
+        <activity android:name=".DeltaExercise" />
+        <activity android:name=".StretchingExercise" />
+        <activity android:name=".PowerupExercise" />
+        <activity android:name=".WarmupExercise" />
+        <activity android:name=".RateActivity" />
         <activity android:name=".FittipActivity" />
         <activity android:name=".FeedbackActivity" />
         <activity android:name=".FatburnActivity" />
@@ -24,9 +35,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".APPpage" />
+        <activity
+            android:name=".APPpage"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity android:name=".SignUp" />
-        <activity android:name=".SecondActivity" />
+        <activity
+            android:name=".SecondActivity"
+            android:screenOrientation="locked"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity android:name=".MainActivity" />
     </application>
 

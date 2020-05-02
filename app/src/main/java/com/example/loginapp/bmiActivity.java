@@ -1,6 +1,6 @@
 package com.example.loginapp;
 
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
@@ -16,6 +16,8 @@ public class bmiActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_bmi);
+        getSupportActionBar().setTitle("Bmi Calculation");
+
         weight = findViewById(R.id.weight);
         height = findViewById(R.id.height);
         resulttext = findViewById(R.id.result);
@@ -31,23 +33,23 @@ public class bmiActivity extends AppCompatActivity {
 
         if (bmi<16)
         {
-            BMIresult="Severely Under Weight";
+            BMIresult=" Your BMI is in Severely Under Weight";
         }
         else if(bmi<18.5)
         {
-            BMIresult="Under Weight";
+            BMIresult="Your BMI is in Under Weight";
         }
         else if(bmi >=18.5 && bmi <=24.9)
         {
-            BMIresult="Normal Weight";
+            BMIresult="Your BMI is in Normal Weight";
         }
         else if(bmi>=25 && bmi <=29.9)
         {
-            BMIresult="Over Weight";
+            BMIresult="Your BMI is in Over Weight";
         }
         else
         {
-            BMIresult="Obese";
+            BMIresult="Your Bmi is in Obese";
         }
         calculation ="Result: \n\n"+ bmi + "\n"+ BMIresult;
 

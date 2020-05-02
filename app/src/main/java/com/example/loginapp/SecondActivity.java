@@ -1,7 +1,7 @@
 package com.example.loginapp;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -135,7 +135,7 @@ public class SecondActivity extends AppCompatActivity {
         startActivity(intent);
     }
     public  void openFittipActivity(){
-        Intent intent= new Intent(this,FatburnActivity.class);
+        Intent intent= new Intent(this,FittipActivity.class);
         startActivity(intent);
     }
     public  void openFatburnActivity(){

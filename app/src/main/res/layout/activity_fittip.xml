@@ -1,9 +1,264 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".FittipActivity">
+    <GridLayout
+        android:columnCount="1"
+        android:rowCount="3"
+        android:alignmentMode="alignMargins"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-</android.support.constraint.ConstraintLayout>
+        <EditText
+            android:id="@+id/namedata"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="50dp"
+            android:inputType="textPersonName"
+            android:hint="Name"
+            />
+
+        <EditText
+            android:id="@+id/emaildata"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Email"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="55dp"
+            android:layout_below="@+id/namedata"
+            />
+
+        <EditText
+            android:id="@+id/messagedata"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Message"
+            android:layout_marginTop="60dp"
+            android:layout_marginStart="50dp"
+            android:layout_below="@+id/emaildata"
+            />
+
+        <Button
+            android:id="@+id/button_send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="61dp"
+            android:text="send to server"
+           android:layout_below="@+id/messagedata" />
+
+        <Button
+            android:id="@+id/button_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="62dp"
+            android:layout_marginStart="50dp"
+            android:enabled="false"
+            android:layout_marginBottom="220dp"
+            android:text="View sended detail"
+            android:layout_below="@+id/button_send"
+            />
+
+        <androidx.cardview.widget.CardView
+            android:layout_below="@id/button_detail"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="10dp"
+            android:background="@color/colorPrimaryDark"
+            app:cardElevation="6dp"
+            app:cardCornerRadius="12dp">
+            <View
+                android:layout_height="4dp"
+                android:layout_width="wrap_content"
+                android:background="@color/colorAccent"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Blance diet Tips"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:layout_marginTop="9dp"
+                android:textAlignment="center"/>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_margin="10dp"
+            app:cardElevation="6dp"
+            app:cardCornerRadius="12dp">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:onClick="regulardiet"
+                app:srcCompat="@drawable/main" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="regular diet"
+                android:text="One-Week Healthy and Balanced Meal Plan Example"
+                android:textSize="15dp"
+                android:textColor="#000"
+                android:layout_marginTop="205dp"
+                android:textAlignment="center"
+                android:layout_marginLeft="5dp">
+
+            </TextView>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_margin="10dp"
+            app:cardElevation="6dp"
+            app:cardCornerRadius="12dp">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:onClick="weightlossdiet"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/weightloss" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="Weightloss"
+                android:text="The Best Indian Diet Plan for Weight Loss"
+                android:textSize="15dp"
+                android:textColor="#000"
+                android:layout_marginTop="205dp"
+                android:textAlignment="center"
+                android:layout_marginLeft="5dp">
+
+            </TextView>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_margin="10dp"
+            app:cardElevation="6dp"
+            app:cardCornerRadius="12dp">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:onClick="weightgaindiet"
+                app:srcCompat="@drawable/weightgain" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="Weight gain"
+                android:text="Weight gain diet plan"
+                android:textSize="15dp"
+                android:textColor="#000"
+                android:layout_marginTop="205dp"
+                android:textAlignment="center"
+                android:layout_marginLeft="5dp">
+
+            </TextView>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_margin="10dp"
+            app:cardElevation="6dp"
+            app:cardCornerRadius="12dp">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:onClick="muscelgaindiet"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/musclegain" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="Muscel gain"
+                android:text="Meal Plan for Muscle Gain"
+                android:textSize="15dp"
+                android:textColor="#000"
+                android:layout_marginTop="205dp"
+                android:textAlignment="center"
+                android:layout_marginLeft="5dp">
+
+            </TextView>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_margin="10dp"
+            app:cardElevation="6dp"
+            app:cardCornerRadius="12dp">
+
+
+            <ImageView
+                android:onClick="immunitydiet"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/immunity" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="immunity diet"
+                android:text="Immunity diet plan"
+                android:textSize="15dp"
+                android:textColor="#000"
+                android:layout_marginTop="205dp"
+                android:textAlignment="center"
+                android:layout_marginLeft="5dp">
+
+            </TextView>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_margin="10dp"
+            app:cardElevation="6dp"
+            app:cardCornerRadius="12dp">
+
+
+            <ImageView
+                android:onClick="tallerdiet"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/taller" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="Taller diet paln"
+                android:text="11 Foods That Make You Taller"
+                android:textSize="15dp"
+                android:textColor="#000"
+                android:layout_marginTop="205dp"
+                android:textAlignment="center"
+                android:layout_marginLeft="5dp">
+
+            </TextView>
+        </androidx.cardview.widget.CardView>
+
+
+
+    </GridLayout>
+
+</ScrollView>

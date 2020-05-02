@@ -4,286 +4,320 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SecondActivity"
-    >
+    android:background="#2196F3"
+    android:visibility="visible"
+    tools:context=".SecondActivity">
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"></ScrollView>
+        android:layout_height="match_parent"
+        android:background="#03A9F4"></ScrollView>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:background="#EBE0E0">
+        android:background="#EBE0E0"
+        android:orientation="vertical">
+
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:background="#66A07D">
+
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="230dp"
-                android:orientation="vertical"
+                android:layout_height="220dp"
+                android:background="@drawable/back"
                 android:gravity="center"
-                android:background="@drawable/back">
+                android:orientation="vertical">
 
                 <ImageView
                     android:layout_width="147dp"
-                    android:layout_height="112dp"
+                    android:layout_height="105dp"
                     android:layout_gravity="center"
-                    android:layout_marginTop="50dp"
+                    android:layout_marginTop="65dp"
                     android:background="@drawable/mainicon2" />
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Fitness + maintanance"
-                    android:textSize="18dp"
-                    android:textStyle="bold"
-                    android:textColor="#ffffff"
                     android:layout_gravity="center"
-                    android:layout_marginTop="10dp"/>
+                    android:layout_marginTop="5dp"
+                    android:text="Fitness + Maintanance"
+                    android:textColor="#ffffff"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
 
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:layout_marginTop="215dp"
                 android:layout_marginLeft="10dp"
+                android:layout_marginTop="215dp"
                 android:layout_marginRight="10dp"
-                >
+                android:orientation="vertical">
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="135dp"
-                    android:orientation="horizontal"
-                    android:layout_marginBottom="10dp">
-                    <android.support.v7.widget.CardView
+                    android:layout_marginBottom="10dp"
+                    android:orientation="horizontal">
+
+                    <androidx.cardview.widget.CardView
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
-                        android:layout_weight="1"
                         android:layout_gravity="center"
-                        android:orientation="vertical"
                         android:layout_marginRight="5dp"
-                        >
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
                         <RelativeLayout
                             android:layout_width="match_parent"
                             android:layout_height="match_parent">
+
                             <ImageView
                                 android:id="@+id/imageView1"
                                 android:layout_width="50dp"
                                 android:layout_height="50dp"
-                                android:src="@drawable/bmi"
+                                android:layout_centerInParent="true"
                                 android:layout_marginRight="5dp"
-                                android:layout_centerInParent="true"/>
+                                android:src="@drawable/bmi" />
+
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="BMI calculation"
-                                android:textSize="16dp"
                                 android:layout_below="@id/imageView1"
                                 android:layout_centerHorizontal="true"
-                                android:layout_marginBottom="10dp"
                                 android:layout_marginTop="10dp"
-                                />
+                                android:layout_marginBottom="10dp"
+                                android:text="BMI calculation"
+                                android:textColor="#000"
+                                android:textSize="16dp" />
+
                             <Button
+                                android:id="@+id/IBM"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
-                                android:id="@+id/IBM"
-                                android:background="@android:color/transparent"/>
+                                android:background="@android:color/transparent"
+                                android:shadowColor="@color/colorPrimaryDark" />
                         </RelativeLayout>
 
-                    </android.support.v7.widget.CardView>
-                    <android.support.v7.widget.CardView
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
-                        android:layout_weight="1"
                         android:layout_gravity="center"
-                        android:orientation="vertical"
                         android:layout_marginLeft="5dp"
-                        >
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
                         <RelativeLayout
                             android:layout_width="match_parent"
                             android:layout_height="match_parent">
+
                             <ImageView
                                 android:id="@+id/imageView2"
                                 android:layout_width="50dp"
                                 android:layout_height="50dp"
-                                android:src="@drawable/exercise"
+                                android:layout_centerInParent="true"
                                 android:layout_marginLeft="5dp"
-                                android:layout_centerInParent="true"/>
+                                android:src="@drawable/exercise" />
+
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Exercise "
-                                android:textSize="16dp"
                                 android:layout_below="@id/imageView2"
                                 android:layout_centerHorizontal="true"
-                                android:layout_marginBottom="10dp"
                                 android:layout_marginTop="10dp"
-                                />
+                                android:layout_marginBottom="10dp"
+                                android:text="Exercise "
+                                android:textColor="#000"
+                                android:textSize="16dp" />
+
                             <Button
+                                android:id="@+id/Exercise"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
-                                android:id="@+id/Exercise"
-                                android:background="@android:color/transparent"/>
+                                android:background="@android:color/transparent" />
                         </RelativeLayout>
 
-                    </android.support.v7.widget.CardView>
+                    </androidx.cardview.widget.CardView>
                 </LinearLayout>
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="135dp"
-                    android:orientation="horizontal"
-                    android:layout_marginBottom="10dp">
-                    <android.support.v7.widget.CardView
+                    android:layout_marginBottom="10dp"
+                    android:orientation="horizontal">
+
+                    <androidx.cardview.widget.CardView
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
-                        android:layout_weight="1"
                         android:layout_gravity="center"
-                        android:orientation="vertical"
                         android:layout_marginRight="5dp"
-                        >
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
                         <RelativeLayout
                             android:layout_width="match_parent"
                             android:layout_height="match_parent">
+
                             <ImageView
                                 android:id="@+id/imageView3"
                                 android:layout_width="50dp"
                                 android:layout_height="50dp"
-                                android:src="@drawable/fatburn"
-                                android:layout_marginRight="5dp"
                                 android:layout_centerInParent="true"
-                                />
+                                android:layout_marginRight="5dp"
+                                android:src="@drawable/fatburn" />
+
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Fat burn tips"
-                                android:textSize="16dp"
                                 android:layout_below="@id/imageView3"
                                 android:layout_centerHorizontal="true"
-                                android:layout_marginBottom="10dp"
                                 android:layout_marginTop="10dp"
-                                />
+                                android:layout_marginBottom="10dp"
+                                android:text="Fat burn tips"
+                                android:textColor="#000"
+                                android:textSize="16dp" />
+
                             <Button
+                                android:id="@+id/Fatburn"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
-                                android:id="@+id/Fatburn"
-                                android:background="@android:color/transparent"/>
+                                android:background="@android:color/transparent" />
                         </RelativeLayout>
 
-                    </android.support.v7.widget.CardView>
-                    <android.support.v7.widget.CardView
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
-                        android:layout_weight="1"
                         android:layout_gravity="center"
-                        android:orientation="vertical"
                         android:layout_marginLeft="5dp"
-                        >
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
                         <RelativeLayout
                             android:layout_width="match_parent"
                             android:layout_height="match_parent">
+
                             <ImageView
                                 android:id="@+id/imageView4"
                                 android:layout_width="50dp"
                                 android:layout_height="50dp"
-                                android:src="@drawable/tip"
+                                android:layout_centerInParent="true"
                                 android:layout_marginLeft="5dp"
-                                android:layout_centerInParent="true"/>
+                                android:src="@drawable/tip" />
+
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Fit Exercise tips"
-                                android:textSize="16dp"
                                 android:layout_below="@id/imageView4"
                                 android:layout_centerHorizontal="true"
-                                android:layout_marginBottom="10dp"
                                 android:layout_marginTop="10dp"
-                                />
+                                android:layout_marginBottom="10dp"
+                                android:text="Fit Exercise tips"
+                                android:textColor="#000"
+                                android:textSize="16dp" />
+
                             <Button
+                                android:id="@+id/FitTip"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
-                                android:id="@+id/FitTip"
-                                android:background="@android:color/transparent"/>
+                                android:background="@android:color/transparent" />
                         </RelativeLayout>
 
-                    </android.support.v7.widget.CardView>
+                    </androidx.cardview.widget.CardView>
                 </LinearLayout>
+
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="135dp"
-                    android:orientation="horizontal"
-                    android:layout_marginBottom="10dp">
-                    <android.support.v7.widget.CardView
+                    android:layout_marginBottom="10dp"
+                    android:orientation="horizontal">
+
+                    <androidx.cardview.widget.CardView
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
-                        android:layout_weight="1"
                         android:layout_gravity="center"
-                        android:orientation="vertical"
                         android:layout_marginRight="5dp"
-                        >
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
                         <RelativeLayout
                             android:layout_width="match_parent"
                             android:layout_height="match_parent">
+
                             <ImageView
                                 android:id="@+id/imageView5"
                                 android:layout_width="50dp"
                                 android:layout_height="50dp"
-                                android:src="@drawable/rateus"
+                                android:layout_centerInParent="true"
                                 android:layout_marginRight="5dp"
-                                android:layout_centerInParent="true"/>
+                                android:src="@drawable/rateus" />
+
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Rate us"
-                                android:textSize="16dp"
                                 android:layout_below="@id/imageView5"
                                 android:layout_centerHorizontal="true"
-                                android:layout_marginBottom="10dp"
                                 android:layout_marginTop="10dp"
-                                />
+                                android:layout_marginBottom="10dp"
+                                android:text="Rate us"
+                                android:textColor="#000"
+                                android:textSize="16dp" />
+
                             <Button
+                                android:id="@+id/RateUs"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
-                                android:id="@+id/RateUs"
-                                android:background="@android:color/transparent"/>
+                                android:background="@android:color/transparent" />
                         </RelativeLayout>
 
-                    </android.support.v7.widget.CardView>
-                    <android.support.v7.widget.CardView
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
-                        android:layout_weight="1"
                         android:layout_gravity="center"
-                        android:orientation="vertical"
                         android:layout_marginLeft="5dp"
-                        >
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
                         <RelativeLayout
                             android:layout_width="match_parent"
                             android:layout_height="match_parent">
+
                             <ImageView
                                 android:id="@+id/imageView6"
                                 android:layout_width="50dp"
                                 android:layout_height="50dp"
-                                android:src="@drawable/feedback"
+                                android:layout_centerInParent="true"
                                 android:layout_marginLeft="5dp"
-                                android:layout_centerInParent="true"/>
+                                android:src="@drawable/feedback" />
+
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="feedback!"
-                                android:textSize="16dp"
                                 android:layout_below="@id/imageView6"
                                 android:layout_centerHorizontal="true"
-                                android:layout_marginBottom="10dp"
                                 android:layout_marginTop="10dp"
-                                />
+                                android:layout_marginBottom="10dp"
+                                android:text="feedback!"
+                                android:textColor="#000"
+                                android:textSize="16dp" />
+
                             <Button
+                                android:id="@+id/Feedback"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
-                                android:id="@+id/Feedback"
-                                android:background="@android:color/transparent"/>
+                                android:background="@android:color/transparent" />
                         </RelativeLayout>
 
-                    </android.support.v7.widget.CardView>
+                    </androidx.cardview.widget.CardView>
                 </LinearLayout>
 
             </LinearLayout>
@@ -291,25 +325,12 @@
         </RelativeLayout>
 
     </LinearLayout>
-
-    <Button
-        android:id="@+id/Logout"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_marginStart="308dp"
-        android:layout_marginLeft="308dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="15dp"
-        android:layout_marginRight="15dp"
-        android:text="Log out"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.973"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.011" />
+  <Button
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:id="@+id/Logout"
+      android:text="Log out"
+      android:layout_marginTop="10sp"
+      android:layout_marginLeft="300sp"
+      />
 </RelativeLayout>
